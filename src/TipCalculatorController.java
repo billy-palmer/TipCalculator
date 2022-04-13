@@ -13,20 +13,18 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
-//actual assignment
 public class TipCalculatorController {
 	
 	// formatters for currency and percentages
-	   private static final NumberFormat currency = 
+	private static final NumberFormat currency = 
 	      NumberFormat.getCurrencyInstance();
-	   private static final NumberFormat percent = 
+	private static final NumberFormat percent = 
 	      NumberFormat.getPercentInstance();
 	   
-	   NumberFormat taxRate = NumberFormat.getNumberInstance();
-	 
-	   private BigDecimal tipPercentage = new BigDecimal(0.15); // 15% default
-	   private BigDecimal taxPercentage = new BigDecimal(0.055); // 5.5% default
-	   private int clicks=0;
+	NumberFormat taxRate = NumberFormat.getNumberInstance();
+	private BigDecimal tipPercentage = new BigDecimal(0.15); // 15% default
+	private BigDecimal taxPercentage = new BigDecimal(0.055); // 5.5% default
+	private int clicks=0;
    
     @FXML
     private TextField amountTextField;
@@ -93,9 +91,7 @@ public class TipCalculatorController {
  
     public void initialize() {
         // 0-4 rounds down, 5-9 rounds up 
-    	
-       // currency.setRoundingMode(RoundingMode.HALF_UP);
-    	 percent.setMaximumFractionDigits(1);
+	    percent.setMaximumFractionDigits(1);
         // listener for changes to tipPercentageSlider's value
       
 
