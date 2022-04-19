@@ -6,7 +6,7 @@
     "configurations": [
 
         {
-            "vmArgs": "--module-path /TipCalculator/src/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls.jar,javafx.fxml",
+            "vmArgs": "--module-path ./TipCalculator/src/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml",
             "type": "java",
             "name": "Launch Current File",
             "request": "launch",
