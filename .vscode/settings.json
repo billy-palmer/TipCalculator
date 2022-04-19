@@ -9,7 +9,15 @@
         "c:\\javafx\\javafx-sdk-18\\lib\\javafx.media.jar",
         "c:\\javafx\\javafx-sdk-18\\lib\\javafx.swing.jar",
         "c:\\javafx\\javafx-sdk-18\\lib\\javafx.web.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx-swt.jar"
+        "c:\\javafx\\javafx-sdk-18\\lib\\javafx-swt.jar",
+        ".vscode/javafx.base.jar",
+        ".vscode/javafx.controls.jar",
+        ".vscode/javafx.fxml.jar",
+        ".vscode/javafx.graphics.jar",
+        ".vscode/javafx.media.jar",
+        ".vscode/javafx.swing.jar",
+        ".vscode/javafx.web.jar",
+        ".vscode/javafx-swt.jar"
     ],
     "java.project.sourcePaths": [
         "src"
