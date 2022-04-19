@@ -2,22 +2,14 @@
     "maven.view": "flat",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.base.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.controls.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.fxml.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.graphics.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.media.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.swing.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx.web.jar",
-        "c:\\javafx\\javafx-sdk-18\\lib\\javafx-swt.jar",
-        ".vscode/javafx.base.jar",
-        ".vscode/javafx.controls.jar",
-        ".vscode/javafx.fxml.jar",
-        ".vscode/javafx.graphics.jar",
-        ".vscode/javafx.media.jar",
-        ".vscode/javafx.swing.jar",
-        ".vscode/javafx.web.jar",
-        ".vscode/javafx-swt.jar"
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.base.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.controls.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.fxml.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.graphics.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.media.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.swing.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx.web.jar",
+        ".vscode/javafx-sdk-11.0.2/lib/javafx-swt.jar"
     ],
     "java.project.sourcePaths": [
         "src"
